@@ -1,5 +1,5 @@
 env:
-  docker_tag: schalla/test:qa-0.0.7
+  docker_tag: schalla/duckdefender-v2:qa-0.0.61
   
 
 
