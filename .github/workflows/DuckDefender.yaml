@@ -39,5 +39,4 @@ jobs:
           -e GITHUB_REF="${{github.ref}}" \
           -e GITHUB_SHA="${{github.sha}}" \
           -e WORKSPACE_PATH="/src" \
-          -e LOG_LEVEL="debug" \
           -v "${{ github.workspace }}":/src  "${{env.docker_tag}}"
